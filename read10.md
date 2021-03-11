@@ -18,8 +18,8 @@ Error objects can help you find where your mistakes areand browsers have tools t
 PROPERTY | DESCRIPTION
 ------------ | -------------
 name | Type of execution
-Ref erenceError | Tried to reference a variable that isnot declared/within scope
-Syntax Error  |Syntax has not been followed
+
+Syntax Error  | Syntax has not been followed
 
 HOW TO DEAL WITH ERRORS
 1 .DEBUG THE SCRIPT TO FIX ERRORS
