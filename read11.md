@@ -1,5 +1,3 @@
-
-
 # Video and Audio APIs
 The <video> and <audio> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
 
@@ -7,7 +5,7 @@ The <video> and <audio> elements allow us to embed video and audio into web page
   //<source src="rabbit320.mp4" type="video/mp4">
   //<source src="rabbit320.webm" type="video/webm">
   //<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
-</video>
+//</video>
 
 <video>
 The <video> element has a number of attributes which allowyou to control video playback:
@@ -27,7 +25,7 @@ ended.
 
 ## what about HTML images
 you  can improve the design and the appearance of a web page
-<img src="pic_trulli.jpg" alt="Italian Trulli">
+//<img src="pic_trulli.jpg" alt="Italian Trulli">
  in the link you can see ,The <img> tag has two required attributes:
 
 1. src - Specifies the path to the image
@@ -39,7 +37,7 @@ To add a background image on an HTML element, use the HTML style attribute and t
 **Example**
 Add a background image on a HTML element:
 
-<div style="background-image: url('img_girl.jpg');">
+//<div style="background-image: url('img_girl.jpg');">
 
 Practical positioning examples
 This article shows how to build some real world examples to illustrate what kinds of things you can do with positioning
