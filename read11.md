@@ -1,4 +1,4 @@
-# Video and Audio APIs
+# Audio and video
 The <video> and <audio> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
 
 **<video controls>**
@@ -7,7 +7,6 @@ The <video> and <audio> elements allow us to embed video and audio into web page
   //<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
 //</video>
 
-<video>
 The <video> element has a number of attributes which allowyou to control video playback:
 *src*
 This attribute specifies the pathto the video. (The example video
