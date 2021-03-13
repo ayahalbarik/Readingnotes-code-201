@@ -4,9 +4,9 @@
 The <video> and <audio> elements allow us to embed video and audio into web pages. As we showed in Video and audio content, a typical implementation looks like this:
 
 **<video controls>**
-  <source src="rabbit320.mp4" type="video/mp4">
-  <source src="rabbit320.webm" type="video/webm">
-  <p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
+  //<source src="rabbit320.mp4" type="video/mp4">
+  //<source src="rabbit320.webm" type="video/webm">
+  //<p>Your browser doesn't support HTML5 video. Here is a <a href="rabbit320.mp4">link to the video</a> instead.</p>
 </video>
 
 <video>
@@ -46,7 +46,7 @@ This article shows how to build some real world examples to illustrate what kind
 
  we've got a <section> element with a class of info-box, which contains a <ul> and a <div>. The unordered list contains three list items with links inside, which will become the actual tabs to click on for displaying our content panels. The div contains three <article> elements, which will make up the content panels that correspond to each tab. Each panel contains some sample content.
 
- <section class="info-box">
+ //<section class="info-box">
   <ul>
     <li><a href="#" class="active">Tab 1</a></li>
     <li><a href="#">Tab 2</a></li>
