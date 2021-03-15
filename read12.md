@@ -3,7 +3,7 @@
  great way to get started with charts is with Chart.js, a JavaScript plugin that uses HTML5’s canvas element to draw the graph onto the page. 
 
  It's easy to get started with Chart.js. All that's required is the script included in your page along with a single <canvas> node to render the chart.
- //<canvas id="myChart" width="400" height="400"></canvas>
+ 
 
 
  ## Also you can Drawing shapes with canvas
@@ -51,7 +51,7 @@ If we want to apply colors to a shape, there are two important properties we can
 Sets the style used when filling shapes.
 * strokeStyle = color
 Sets the style for shapes' outlines.
-color is a string representing a CSS <color>, a gradient object, or a pattern object. We'll look at gradient and pattern objects later. By default, the stroke and fill color are set to black (CSS color value #000000).
+color is a string representing a CSS //<color>, a gradient object, or a pattern object. We'll look at gradient and pattern objects later. By default, the stroke and fill color are set to black (CSS color value #000000).
 
 
 ## Drawing text
